@@ -55,7 +55,7 @@ function ding_user_frontend_default_page_manager_handlers() {
     $pane->access = array();
     $pane->configuration = array(
       'type' => 'secondary',
-      'id' => 'tabs',
+      'id' => 'tabs-secondary-menu',
       'override_title' => 1,
       'override_title_text' => '',
     );
@@ -90,7 +90,7 @@ function ding_user_frontend_default_page_manager_handlers() {
     );
     $pane->configuration = array(
       'type' => 'primary',
-      'id' => 'tabs',
+      'id' => 'tabs-primary-menu',
       'override_title' => 1,
       'override_title_text' => '',
     );
@@ -169,7 +169,7 @@ function ding_user_frontend_default_page_manager_handlers() {
     $pane->access = array();
     $pane->configuration = array(
       'type' => 'primary',
-      'id' => 'tabs',
+      'id' => 'tabs-primary-menu',
       'override_title' => 1,
       'override_title_text' => '',
     );
@@ -191,7 +191,7 @@ function ding_user_frontend_default_page_manager_handlers() {
     $pane->access = array();
     $pane->configuration = array(
       'type' => 'secondary',
-      'id' => 'tabs',
+      'id' => 'tabs-secondary-menu',
       'override_title' => 1,
       'override_title_text' => '',
     );
